@@ -50,19 +50,4 @@ def update_counting_hash(hash, key)
     hash[key] += 1 
     return hash[key]
   end
-=======
-  # given a hash and a key as parameters, return an updated hash
-  
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
-    hash = {
-      key => 1
-    }
-     return hash[key]
-  
-  # if the provided key is present, increment its value by 1
-  def update_hash(hash, key)
-    key = key + 1
-  end
-  return update_hash
->>>>>>> 0db6b1f053f1a9d7a2e9bfcc837a761716b1f493
-end
+
