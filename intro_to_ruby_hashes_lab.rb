@@ -29,15 +29,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-<<<<<<< HEAD
-=======
-  hash = {}
->>>>>>> 0db6b1f053f1a9d7a2e9bfcc837a761716b1f493
 return hash[key]
 end
 
 def update_counting_hash(hash, key)
-<<<<<<< HEAD
   # given a hash an a key as parameters, return an updated hash
   
   # if the provided key is not present in the hash, add it and assign it to the value of 1
