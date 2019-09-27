@@ -41,7 +41,7 @@ def update_counting_hash(hash, key)
     hash[key] = new_value #creates hash with a new value of 1
     return hash
   # if the provided key is present, increment its value by 1
-  else hash[key] = true 
+  else 
     hash[key] += 1 
     return hash
   end
